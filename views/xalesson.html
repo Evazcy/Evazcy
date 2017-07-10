@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <style type="text/css">
+	a{margin-left: 20px; text-decoration: none;}
+	a:hover{text-decoration: underline;}
+    </style>
+  </head>
+  <body>
+
+  <!--导航栏-->
+  <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                      data-target="#example-navbar-collapse">
+                  <span class="sr-only">切换导航</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/home">小鲨编程</a>
+          </div>
+          <div class="collapse navbar-collapse" id="example-navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          系列课程 <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/xalesson">小白与阿呆之保卫家园</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          案例分析 <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/algame">游戏</a></li>
+                          <li class="divider"></li>
+                          <li><a href="/alteach">教程</a></li>
+                          <li class="divider"></li>
+                          <li><a href="/alavi">动画</a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          作业系统 <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/homework">小白与阿呆之保卫家园</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="/activity">社区活动</a></li>
+                  <li>
+                      <div>
+                          <form class="navbar-form navbar-left" role="search">
+                              <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Search">
+                              </div>
+                              <button type="submit" class="btn btn-default">搜索</button>
+                          </form>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+   <!--<div class="parent">-->
+    <!--<div class="left">left</div>-->
+    <!--<div class="right">-->
+      <!--<div class="inner">right</div>-->
+    <!--</div>-->
+   <!--</div>-->
+
+   <div id="class" class="container">
+     <div class="row">
+       <div class="col-md-2" style="background-color: #ffffff;">
+         <ul class="nav nav-pills nav-stacked">
+           <li class="active" ><a href="/xalesson">小白与阿呆之保卫家园</a></li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/z0fP-Y5fR0tGN3ggt1r7QA">
+             <a href="javascript:void(0);">第一课 阿呆与小白 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;背景角色</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/9NdkvEEs-SGgux0VT8-VMQ">
+             <a href="javascript:void(0);">第二课 行星撞地球 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;动作</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/TlDmr_cN9JW-ZfskBdOxZA">
+             <a href="javascript:void(0);">第三课 建立保护区 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;画笔</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/NC-JqsM8rSievoD7disByQ">
+             <a href="javascript:void(0);">第四课 发现小行星 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外观声音</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/576AOEd85YE3yUkl_saYeA">
+             <a href="javascript:void(0);">第五课 跟踪小行星 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/QVap_xuUOpdE4T7F3wuoJQ">
+             <a href="javascript:void(0);">第六课 回收小行星 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;控制侦测（一）</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/hkitshobNnBa1MG5JW2qzw">
+             <a href="javascript:void(0);">第七课 射杀小行星 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;控制侦测（二）</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/jId7zxJKHJTZWQZHxuskog">
+             <a href="javascript:void(0);">第八课 重建新家园 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据运算及变量</a>
+           </li>
+           <li class="myMenu" url="http://mp.weixin.qq.com/s/Qf2knycMqtNBd1DqPYR8lw">
+             <a href="javascript:void(0);">课程回顾 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+           </li>
+         </ul>
+       </div>
+       <div class="col-md-10" style="background-color: #ffffff;">
+         <div class="contentText">
+           <iframe src="http://mp.weixin.qq.com/s/Z3CKV3cFOmJKdqRkocLi9Q" onload="changeFrameHeight()" id="myFrame" scrolling="yes" frameborder="0"></iframe>
+         </div>
+       </div>
+     </div>
+   </div>
+
+     <footer>
+         <p>版权杭州小鲨网络科技有限公司所有</p>
+        <hr />
+        <small>法律条文</small>
+        <small>联系我们</small>
+        <small>客户意见</small>
+        <small>商户合作</small>
+</footer>
+
+   <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+   <script>
+     $(function () {
+       $(".myMenu").click(function(event){
+         event.preventDefault();
+         $("#myFrame").attr("src", $(this).attr("url"));
+
+         $.ajaxPrefilter( function (options) {
+           if (options.crossDomain && jQuery.support.cors) {
+             var http = (window.location.protocol === 'http:' ? 'http:' : 'https:');
+             options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+             //options.url = "http://cors.corsproxy.io/url=" + options.url;
+           }
+         });
+
+         var share_link=$(this).attr("url");
+         $.get(
+                 share_link,
+                 function (response) {
+                   console.log("> ", response);
+                   var html = response;
+                   html=html.replace(/data-src/g, "src");
+                   var html_src = 'data:text/html;charset=utf-8,' + html;
+                   $("#myFrame").attr("src" , html_src);
+                 });
+
+       });
+     });
+
+
+
+     function changeFrameHeight(){
+       var ifm= document.getElementById("myFrame");
+       ifm.height=document.documentElement.clientHeight;
+     }
+     window.onresize=function(){
+       changeFrameHeight();
+     }
+
+   </script>
+
+  <!--<div id="content">-->
+  <!--<p></p>-->
+  <!--<div calss="list-group">-->
+  <!--<a href="http://mp.weixin.qq.com/s/z0fP-Y5fR0tGN3ggt1r7QA" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/lessonone.jpg" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第一课</h4>-->
+  <!--<p class="list-group-item-text">阿呆与小白——背景与角色</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/9NdkvEEs-SGgux0VT8-VMQ" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/black.png" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第二课</h4>-->
+  <!--<p class="list-group-item-text">行星撞地球——动作模块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/TlDmr_cN9JW-ZfskBdOxZA" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/earth.png" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第三课</h4>-->
+  <!--<p class="list-group-item-text">建立保护区——画笔模块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/NC-JqsM8rSievoD7disByQ" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/shiyan.jpg" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第四课</h4>-->
+  <!--<p class="list-group-item-text">发现小行星——外观与声音模块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/576AOEd85YE3yUkl_saYeA" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/Tack.png" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第五课</h4>-->
+  <!--<p class="list-group-item-text">跟踪小行星——事件模块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/QVap_xuUOpdE4T7F3wuoJQ" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/yuzhong.jpg" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第六课</h4>-->
+  <!--<p class="list-group-item-text">回收小行星——侦测模块与控制模块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/hkitshobNnBa1MG5JW2qzw" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/yewai.jpg" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第七课</h4>-->
+  <!--<p class="list-group-item-text">射杀小行星——侦测模块与循环语句</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--<a href="#">-->
+  <!--<a href="http://mp.weixin.qq.com/s/jId7zxJKHJTZWQZHxuskog" class="list-group-item" style="margin-left: 0px;">-->
+  <!--<div id="lesson-images">-->
+  <!--<img src="/images/cj.jpg" class="img-rounded">-->
+  <!--</div>-->
+  <!--<h4 calss="list-group-item-heading">第八课</h4>-->
+  <!--<p class="list-group-item-text">重建新家园——数据模块与新建功能块</p>-->
+  <!--<span id="author">作者:小白</span>-->
+  <!--</a>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  </body>
+</html>
